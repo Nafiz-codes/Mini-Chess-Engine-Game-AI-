@@ -63,44 +63,57 @@ UCI-compatible chess GUI (optional)
 
 ### 1. Clone your repo
 
+```bash
 git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME
 cd YOUR_REPO_NAME
-
+```
 
 ### 2. Run your engine
 
-For Python
+```bash
+#For Python
 python engine.py
-
+```
 
 ### 3. Optional: Connect to a UCI GUI
 Use Arena, Cute Chess, or Lichess local setup to connect your engine via UCI.
 
 ## 🧪 Example Output
+
+```bash
 Position: Starting
 Searching depth 1…
 Best move: e2e4 (score: +0.23)
 Nodes: 12345
 Time: 0.05s
+```
 
 ## 📐 Project Structure
+```bash
 /
+
 ├── engine.py               # Core search & evaluation logic
+
 ├── board.py                # Board representation & move generator
+
 ├── uci.py                  # UCI interface implementation
+
 ├── tests/                  # Unit tests
+
 ├── README.md
+
 └── LICENSE
+```
 
 ## 🧠 Understanding Key Concepts
 
 Here’s how the main chess engine building blocks relate:
 
-Component	Purpose
-Search (Minimax / Alpha-Beta)	Explore future move sequences efficiently
-Evaluation Function	Quantify how good a board position is
-Move Ordering / Pruning	Speed up search by ignoring less promising branches
-UCI Interface	Allow GUI interaction with your engine
+##Component	                       ##Purpose
+####Search (Minimax / Alpha-Beta)	 Explore future move sequences efficiently
+####Evaluation                     Function	Quantify how good a board position is
+####Move Ordering / Pruning	       Speed up search by ignoring less promising branches
+####UCI Interface	                 Allow GUI interaction with your engine
 
 These concepts are foundational in engines like Stockfish and simplified implementations such as Sunfish.
 YouTube
