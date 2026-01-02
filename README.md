@@ -101,13 +101,16 @@ Time: 0.05s
 
 ## 🧠 Understanding Key Concepts
 
-Here’s how the main chess engine building blocks relate:
+| Component | Description |
+|----------|-------------|
+| **Board Representation** | Internal data structure that stores piece positions and game state |
+| **Move Generation** | Generates all legal moves from a given position |
+| **Search Algorithm** | Explores future positions using Minimax / Alpha-Beta pruning |
+| **Evaluation Function** | Assigns a numerical score to a board position |
+| **Move Ordering** | Improves search speed by exploring promising moves first |
+| **Transposition Table** | Caches previously evaluated positions to avoid recomputation |
+| **UCI Interface** | Allows the engine to communicate with chess GUIs |
 
-##Component	                       ##Purpose
-####Search (Minimax / Alpha-Beta)	 Explore future move sequences efficiently
-####Evaluation                     Function	Quantify how good a board position is
-####Move Ordering / Pruning	       Speed up search by ignoring less promising branches
-####UCI Interface	                 Allow GUI interaction with your engine
 
 These concepts are foundational in engines like Stockfish and simplified implementations such as Sunfish.
 YouTube
