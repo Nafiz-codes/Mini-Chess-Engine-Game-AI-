@@ -4,23 +4,23 @@ A lightweight, educational chess engine built from scratch — blending ideas fr
 
 ## 🚀 Features
 
-♟️ Board representation and full legal move generation
+- ♟️ Board representation and full legal move generation
 
-🔍 Search algorithm (Minimax / Alpha-Beta pruning or alternatives)
+- 🔍 Search algorithm (Minimax / Alpha-Beta pruning or alternatives)
 
-📊 Position evaluation function
+- 📊 Position evaluation function
 
-🧩 UCI (Universal Chess Interface) support
+- 🧩 UCI (Universal Chess Interface) support
 
-🔄 Optional enhancements:
+- 🔄 Optional enhancements:
 
-Iterative deepening
+ -Iterative deepening
 
-Transposition table
+ -Transposition table
 
-Move ordering heuristics
+ -Move ordering heuristics
 
-Simple parallelization
+ -Simple parallelization
 
 💡 Inspired by clean, simple engines like Sunfish (a Python chess engine in ~111 lines) and pro engines like Stockfish, this engine is designed for learning and experimentation.
 GitHub
@@ -53,11 +53,11 @@ Codeforces
 
 ### Prerequisites
 
-Python / C++ / your chosen language
+- Python / C++ / your chosen language
 
-Standard development tooling (compiler / interpreter)
+- Standard development tooling (compiler / interpreter)
 
-UCI-compatible chess GUI (optional)
+- UCI-compatible chess GUI (optional)
 
 ### Installation
 
@@ -119,23 +119,19 @@ YouTube
 
 Contributions are welcome! Suggestions include:
 
-Adding more advanced move ordering
+- Adding more advanced move ordering
 
-Integrating a simple neural evaluation component
+- Integrating a simple neural evaluation component
 
-Benchmark tests versus Sunfish or baseline engines
+- Benchmark tests versus Sunfish or baseline engines
 
 ## 📚 Resources
 
-Sunfish — elegant minimalist Python engine: https://github.com/thomasahle/sunfish
- 
-GitHub
+- Sunfish — elegant minimalist Python engine: https://github.com/thomasahle/sunfish
 
-Stockfish — open source world-class UCI engine: https://github.com/official-stockfish/Stockfish
- 
-GitHub
+- Stockfish — open source world-class UCI engine: https://github.com/official-stockfish/Stockfish
 
-Chess Engine Tutorials — building and understanding engines (YouTube / community references)
+- Chess Engine Tutorials — building and understanding engines (YouTube / community references)
 Codeforces
 
 ## 📝 License
