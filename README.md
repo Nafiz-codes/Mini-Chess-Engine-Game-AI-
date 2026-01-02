@@ -91,17 +91,11 @@ Time: 0.05s
 ## 📐 Project Structure
 ```bash
 /
-
 ├── engine.py               # Core search & evaluation logic
-
 ├── board.py                # Board representation & move generator
-
 ├── uci.py                  # UCI interface implementation
-
 ├── tests/                  # Unit tests
-
 ├── README.md
-
 └── LICENSE
 ```
 
