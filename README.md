@@ -131,7 +131,7 @@ Contributions are welcome! Suggestions include:
 
 - Stockfish — open source world-class UCI engine: https://github.com/official-stockfish/Stockfish
 
-- Chess Engine Tutorials — building and understanding engines (YouTube / community references)
+- Chess Engine Tutorials — building and understanding engines 
 Codeforces
 
 ## 📝 License
